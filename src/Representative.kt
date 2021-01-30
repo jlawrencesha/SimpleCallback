@@ -11,7 +11,7 @@ class Representative(val name: String): Adder.OnAdderFinished {
     }
 
     override fun onCalcCompletion(newNumber: Int) {
-        println("$name has completed the number and it is ${newNumber}")
+        println("$name has coumpleted the number and it is ${newNumber}")
     }
 
 
